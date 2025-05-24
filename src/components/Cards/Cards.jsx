@@ -49,7 +49,7 @@ export default function CompanyCard({ company }) {
           {/* Review Info */}
           <div className="flex flex-col ml-2">
             {/* Text mentioning 23 reviews */}
-            <span className="text-md text-gray-600 ml-1">23 reviews</span>
+            <span className="text-md text-gray-600 ml-1">80 reviews</span>
 
             {/* Star Rating */}
             <div className="flex">
@@ -166,6 +166,7 @@ export default function CompanyCard({ company }) {
             Branches
           </p>
         </div>
+        
         <a href="./CompanyProfile">
           <button className="mt-1 p-2 cursor-pointer bg-white w-full rounded-4xl text-blue-500">
             Know More

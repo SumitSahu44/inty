@@ -12,7 +12,7 @@ const Designers = () => {
     <section className="py-12 px-6 md:px-12 lg:px-24 text-center">
        
         <h3 className="text-[#006452] text-lg font-semibold">Popular Designers</h3>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2">Our Most Rated Designer Companies</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2">Our Most Rated Designing Companies</h2>
      
             <div className="flex justify-center gap-1 pt-10 sm:p-6">
       {images.map((img, index) => (

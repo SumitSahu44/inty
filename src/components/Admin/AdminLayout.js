@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const AdminLayout = ({ children }) => {
@@ -16,13 +15,13 @@ const AdminLayout = ({ children }) => {
           <div className="flex justify-between h-16">
             <div className="flex">
               <div className="flex-shrink-0 flex items-center">
-                <h1 className="text-xl font-bold">Admin Panel</h1>
+                <h1 className="text-xl font-bold">Admin Dashboard</h1>
               </div>
             </div>
             <div className="flex items-center">
               <button
                 onClick={handleLogout}
-                className="ml-4 px-4 py-2 rounded bg-red-600 text-white hover:bg-red-700"
+                className="ml-4 px-4 py-2 rounded bg-red-600 text-white hover:bg-red-800"
               >
                 Logout
               </button>

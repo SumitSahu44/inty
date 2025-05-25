@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import SignUp from "./pages/Register/Register";
@@ -9,8 +11,7 @@ import ResidentialSpace from "./pages/ResidentialSpace/Residentialspace";
 import AdminLogin from "./pages/Admin/AdminLogin";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import InteriorDesigner from "./pages/InteriorDesigner/InteriorDesigner";
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
 
   return (
     <Routes>
-      {/* Public Routes */}
+      {/* All Public Routes */}
       <Route path="/" element={<Home />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/login" element={<LogIn />} />
@@ -32,7 +33,7 @@ const App = () => {
       <Route path="/CompanyProfile" element={<CompanyProfile />} />
       <Route path="/Compare" element={<Compare />} />
 
-      {/* Admin Routes */}
+      {/* ALL dmin Routes */}
       <Route path="/admin/login" element={<AdminLogin />} />
       <Route
         path="/admin/dashboard"

@@ -11,7 +11,6 @@ import ResidentialSpace from "./pages/ResidentialSpace/Residentialspace";
 import AdminLogin from "./pages/Admin/AdminLogin";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
-
 import InteriorDesigner from "./pages/InteriorDesigner/InteriorDesigner";
 
 const App = () => {

@@ -12,7 +12,6 @@ import AdminLogin from "./pages/Admin/AdminLogin";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 import InteriorDesigner from "./pages/InteriorDesigner/InteriorDesigner";
-
 const App = () => {
   useEffect(() => {
     AOS.init({

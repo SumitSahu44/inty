@@ -36,6 +36,7 @@
         { "label": "Schedule a Meeting", "onClick": "scheduleMeeting" }
       ]
     },
+    
     {
       "name": "Neha Gupta",
       "rate": "₹280/hr",

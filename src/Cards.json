@@ -10,8 +10,7 @@
         { "label": "Contact Directly", "onClick": "contactDirectly" },
         { "label": "Schedule a Meeting", "onClick": "scheduleMeeting" }
       ]
-    },
-    
+    }, 
     {
       "name": "Priya Singh",
       "rate": "₹300/hr",

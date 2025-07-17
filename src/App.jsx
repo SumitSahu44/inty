@@ -19,7 +19,6 @@ const App = () => {
       once: true,
     });
   }, []);
-
   return (
     <Routes>
       {/* All Public Routes */}
